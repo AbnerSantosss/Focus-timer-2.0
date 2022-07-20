@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  
+
+}
+:root{
+  font-size: 62.5%;
+
+  /*===================PAGE-COLORS================*/
+  --color-background-page:rgb(234, 228, 228);
+  --color-border-page: #9ecfdd;
+  --color-boxshadow-button: rgba(2, 121, 157, 0.17);
+  
+  
+  /*===================CONTROL-COLORS================*/
+
+  --color-timer-display: #323238;
+  --color-background-cards: #02799D;
+  --color-cards-sonds: rgb(196, 30, 30);
+
+
+}
+
+/*=======================PAGE===================*/
+.page {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 19.2rem;
+  margin-top: 6.0rem;
+  box-sizing: border-box;
+  border: 1px solid var(--color-border-page);
+  border-radius: 2.0rem;
+  height: 46.9rem;
+  padding: 1px;
+  position: relative;
+  box-sizing: border-box;
+
+}
+/*=======================HIDE-CLASS===================*/
+.hide{
+display: none;
+}
+
+
+
+ 
+
+ 
+
+
+
+/*====================DISPLAY=====================*/
+#display{
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.0rem;
+  border-radius: 2.0rem;
+  border: 1px solid var(--color-border-page);
+  box-shadow: 5px 10px 26px 11px var(--color-boxshadow-button);
+  box-sizing: border-box;
+  margin-left:70px;
+
+}
+
+#display .timer{
+  display: flex;
+ justify-content: center;
+}
+#display .timer h1{
+  font-size: 12.0rem;
+  color: var(--color-timer-display);
+}
+
+/*======================CONTROLS-DISPLAY====================*/
+#controls {
+  display: flex;
+  flex-direction: row; 
+  gap: 2.5rem;
+  align-items: center;
+  box-sizing: border-box;
+  
+
+}
+
+#controls .hide{
+  display: none;
+}
+  
+#controls button{
+  border: none;
+  background: none;
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+/*======================CARD-SONDS====================*/
+#card-sonds{
+ width: 30.8rem;
+ height: 33.6rem;
+ padding: 2.0rem;
+ display: grid;
+ gap: 1.0rem;
+ grid-template-columns:  2fr 2fr;
+ box-sizing: border-box;
+
+ 
+ 
+}
+#card-sonds button{
+ border: none;
+ width: 10.0rem;
+ height: 11rem;
+ border-radius: 20px;
+ padding: 10px;
+ transition: 0.2s;
+}
+
+
+ 
+
+#card-sonds button:hover{
+ background: var(--color-background-cards);
+ cursor: pointer;
+
+ box-shadow: 5px 10px 26px 11px var(--color-boxshadow-button);
+ 
+}
+
+#card-sonds .sond-one .svg-fill path:hover{
+fill: #f4f4ff;
+}
+
+.volumeslider{
+ width: 100%;
+ margin-top: 10px;
+ cursor: pointer;
+
+}
+
+
+ 
+
+
+
+  
+   
+
+
+ 
+
+ 
+
+  
+
+  
+
+  
+ 
+ 
+ 
+
+  
+  
+  
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+  
+   
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+  
+
+  

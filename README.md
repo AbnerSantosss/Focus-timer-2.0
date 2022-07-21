@@ -6,6 +6,7 @@
 * import e exports
 * Variaveis css
 * Trabalhamos novamente com a função setTimeout
+* Adicionado um botão para adicional +5 minutos ao contador e - 5 se clicado!
 
 
 
